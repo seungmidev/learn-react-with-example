@@ -1,0 +1,9 @@
+.gallery {display:flex; flex-direction:row; flex-wrap:wrap; width:1600px; margin:20px auto;}
+.gallery article {display:flex; align-items:center; width:500px; height:350px; margin:10px; background-color:#efefef;}
+.gallery article .left {}
+.gallery article .left img {display:block; width:250px; height:350px;}
+.gallery article .right {width:220px; margin-left:15px;}
+.gallery article .right h3 {margin-bottom:10px; font-size:20px;}
+.gallery article .right ul {margin-bottom:40px;}
+.gallery article .right ul li {line-height:50px; border-bottom:1px dotted #999; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.gallery article .right button {width:150px; height:40px; color:#fff; background-color:cadetblue; border:none;}

@@ -1,0 +1,11 @@
+.wrap {width:400px; margin:20px auto; padding:25px; border:1px solid #999;}
+.wrap h1 {font-size:30px; margin-bottom:15px;}
+.wrap ul {margin-bottom:20px;}
+.wrap ul li {display:flex; align-items:center; margin-bottom:10px;}
+.wrap ul li p {width:120px; height:120px; border-radius:100%; overflow:hidden;}
+.wrap ul li p img {width:100%;}
+.wrap ul li div {width:180px; margin-left:40px;}
+.wrap ul li div strong {display:block; margin-bottom:10px; font-size:20px;}
+.wrap ul li div span {font-size:20px;}
+.wrap .btn {text-align:center;}
+.wrap .btn button {width:150px; height:45px; color:#fff; border:none; background-color:violet;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr1 = [10, 20, 30, 40, 50]
+        // 배열객체.filter(변수 => 조건)
+        // map과 비슷하나 조건을 받고 true를 반환
+        // 결과는 [] 배열로 반환
+        const result1 = arr1.filter(item => item > 20)
+        console.log(result1)
+        const result2 = arr1.filter(item => item === 10)
+        console.log(result2)
+
+        // 20 삭제 (중요함)
+        const result3 = arr1.filter(item => item !== 20)
+        console.log(result3)
+
+        const data = [
+            {id:1, name:'이승미', age:29},
+            {id:2, name:'김선영', age:31},
+            {id:3, name:'김혜진', age:31}
+        ]
+        // 문제) id가 1번인 객체만 출력
+        const data1 = data.filter(item => item.id === 1)
+        console.log(data1)
+        // 문제) id가 3번의 객체를 제외하고 출력
+        const data2 = data.filter(item => item.id !== 3)
+        console.log(data2)
+    </script>
+</body>
+</html>

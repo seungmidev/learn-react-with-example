@@ -1,0 +1,6 @@
+.wrap {display:flex; justify-content:space-between; width:600px; margin:20px; padding:20px; border:1px solid #000;}
+.wrap .box {width:120px; height:120px; font-size:20px; color:#fff; line-height:6; text-align:center;}
+.wrap .box1 {background-color:darkslategray;}
+.wrap .box2 {background-color:darkkhaki;}
+.wrap .box3 {background-color:burlywood;}
+.wrap .box4 {background-color:lightslategray;}
